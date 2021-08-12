@@ -1,0 +1,67 @@
+body {
+    background-color: #f7f7f7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+header div {
+    color: #fff;
+}
+
+header p {
+    background-color: black;
+    max-width: 100%;
+    height: 15px;
+    margin: 0;
+    text-align: right;
+    border: 1px solid black;
+}
+
+header .calculation {
+    padding: 15px;
+    font-size: 25px;
+}
+
+header .result {
+    font-size: 45px;
+    padding: 0 8px 55px 0;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    float: left;
+    cursor: pointer;
+    font-size: 33px;
+    border: .5px solid rgb(187, 187, 187);
+    background-color: rgb(255, 255, 255);
+}
+
+button:hover {
+    background-color: rgb(165, 182, 12);
+}
+
+button:first-of-type, button:last-of-type {
+    width: 200px;
+}
+
+button:last-of-type {
+    background-color:orange;
+}
+
+button:last-of-type:hover {
+    background-color:rgb(255, 0, 242);
+}
+
+.container {
+    margin: 0;
+    padding: 0x²;
+}
